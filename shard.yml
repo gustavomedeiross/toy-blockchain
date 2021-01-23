@@ -1,0 +1,17 @@
+name: simple-blockchain
+version: 0.1.0
+
+authors:
+  - mendes13 gustavomendes.medeiros@gmail.com
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  simple-blockchain:
+    main: src/simple-blockchain.cr
+
+crystal: 0.35.1
+
+license: MIT
